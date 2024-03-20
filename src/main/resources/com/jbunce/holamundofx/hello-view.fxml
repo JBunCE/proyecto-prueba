@@ -9,11 +9,11 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <Label text="Numero 1" />
-   <TextField />
+   <TextField  fx:id="numero1"  />
    <Label text="Numero 2" />
-   <TextField />
+   <TextField fx:id="numero2" />
 
     <Label fx:id="welcomeText" />
-   <Label text="resultado:  " />
+   <Label fx:id="result" text="resultado:  " />
     <Button onAction="#onHelloButtonClick" text="Imprimir" />
 </VBox>
